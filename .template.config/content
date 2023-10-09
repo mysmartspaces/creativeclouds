@@ -1,0 +1,13 @@
+---content
+    +---TemplateA
+    |   +---.template.config
+    |   +---src
+    |   \---test
+    +---TemplateB
+    |   +---.template.config
+    |   +---src
+    |   \---test
+    \---TemplateC
+        +---.template.config
+        +---src
+        \---test

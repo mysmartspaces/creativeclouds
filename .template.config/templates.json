@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "mytechramblings.com",
+    "classifications": [
+      "Cloud",
+      "Service",
+      "Web"
+    ],
+    "name": "Azure Function with Timer and NET Core 3.1",
+    "description": "An Azure Function trigger by a timer and built using NET Core 3.1",
+    "groupIdentity": "Dotnet.Function.Timer",
+    "identity": "Dotnet.Function.Timer.CSharp",
+    "shortName": "mtr-az-func-timer",
+    "defaultName": "TimerFunction1",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "ApplicationName",
+    "symbols": {
+      "FunctionName": {
+          "type": "parameter",
+          "datatype": "string",
+          "defaultValue": "MyFunction",
+          "replaces": "FUNCTION-NAME",
+          "description": "The name of the Azure Function."
+      },
+      "CronExpression": {
+          "type": "parameter",
+          "datatype": "string",
+          "defaultValue": "0 * * * * *",
+          "replaces": "CRON-TIMER",
+          "description": "The timer expression in cron expression."
+      },
+      "LogLevel": {
+          "type": "parameter",
+          "datatype": "string",
+          "defaultValue": "Information",
+          "replaces": "LOG-LEVEL",
+          "description": "Default LogLevel for the Azure Function."
+      },
+    }
+  }
+  

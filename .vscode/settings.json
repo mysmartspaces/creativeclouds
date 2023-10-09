@@ -1,0 +1,33 @@
+{
+    "githubPullRequests.showPullRequestNumberInTree": true,
+    "terminal.integrated.enableImages": true
+}
+{
+    initializationOptions: {
+        configuration: {
+            svelte: {
+                plugin: {
+                    css: { enable: true },
+                    // ...
+                }
+            },
+            typescript: { /* .. */ },
+            javascript: { /* .. */ },
+            prettier: { /* .. */ },
+            // ...
+        }
+    }
+}
+{
+    svelte: {
+        plugin: {
+            css: { enable: false },
+            // ...
+        }
+    },
+    typescript: { /* .. */ },
+    javascript: { /* .. */ },
+    prettier: { /* .. */ },
+    // ...
+    }
+}
