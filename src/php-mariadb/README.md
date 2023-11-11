@@ -43,4 +43,4 @@ sudo chmod a+x "$(pwd)" && sudo rm -rf /var/www/html && sudo ln -s "$(pwd)" /var
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/igecloudsdev/developer/blob/main/src/php-mariadb/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/igecloudsdev/localdev-containers/blob/main/src/php-mariadb/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
