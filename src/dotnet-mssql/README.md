@@ -27,4 +27,4 @@ Alternatively, .dacpac files placed in the `./bin/Debug` folder will be publishe
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/igecloudsdev/developer/blob/main/src/dotnet-mssql/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/igecloudsdev/localdev-containers/blob/main/src/dotnet-mssql/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
