@@ -5,7 +5,7 @@
 			"extensions": [
 				"mads-hartmann.bash-ide-vscode",
 				"dbaeumer.vscode-eslint"
-				
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	},
@@ -14,4 +14,8 @@
 	},
 	"postCreateCommand": "npm install -g @devcontainers/cli",
 	"remoteUser": "node"
+        }
+    },
+     "forwardPorts": [3000]
+
 }
