@@ -4,8 +4,10 @@
 		"vscode": {
 			"extensions": [
 				"mads-hartmann.bash-ide-vscode",
-				"dbaeumer.vscode-eslint"
-				"streetsidesoftware.code-spell-checker"
+				"dbaeumer.vscode-eslint",
+				"streetsidesoftware.code-spell-checker",
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"vscode-icons-team.vscode-icons"
 			]
 		}
 	},
