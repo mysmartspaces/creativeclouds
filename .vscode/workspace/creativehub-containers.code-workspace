@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"githubPullRequests.showPullRequestNumberInTree": true,
+		"terminal.integrated.enableImages": true,
+		"terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+		"terminal.integrated.accessibleViewPreserveCursorPosition": true,
+		"terminal.integrated.allowChords": true,
+		"terminal.integrated.allowMnemonics": true
+	}
+}
