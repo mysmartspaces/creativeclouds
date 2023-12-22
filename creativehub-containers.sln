@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "", ".csproj", "{8AA3FC01-3D22-47F9-8439-F25195EE6D19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E82004A5-0190-4707-B7D6-ACAFC935D5F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vscode-remote-try-dotnet", "src\project-vscode-dotnet\vscode-remote-try-dotnet.csproj", "{E84ACEAA-D0E0-48D2-86D0-FD5898EDD5F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5CA44C0B-23BA-45C0-B881-E93A28E90874}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnetapp", "test\dotnet\aspnetapp.csproj", "{5457AB74-D132-4145-B378-7C5CF5568058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnetapp (1)", "test\dotnet-mssql\aspnetapp.csproj", "{8112A1CE-559F-4CD0-979D-2E4DA0E5188A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnetapp (2)", "test\dotnet-postgres\aspnetapp.csproj", "{B0932F1F-344B-427D-885A-93991903EDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA3FC01-3D22-47F9-8439-F25195EE6D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA3FC01-3D22-47F9-8439-F25195EE6D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA3FC01-3D22-47F9-8439-F25195EE6D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA3FC01-3D22-47F9-8439-F25195EE6D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84ACEAA-D0E0-48D2-86D0-FD5898EDD5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84ACEAA-D0E0-48D2-86D0-FD5898EDD5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84ACEAA-D0E0-48D2-86D0-FD5898EDD5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84ACEAA-D0E0-48D2-86D0-FD5898EDD5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5457AB74-D132-4145-B378-7C5CF5568058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5457AB74-D132-4145-B378-7C5CF5568058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5457AB74-D132-4145-B378-7C5CF5568058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5457AB74-D132-4145-B378-7C5CF5568058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8112A1CE-559F-4CD0-979D-2E4DA0E5188A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8112A1CE-559F-4CD0-979D-2E4DA0E5188A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8112A1CE-559F-4CD0-979D-2E4DA0E5188A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8112A1CE-559F-4CD0-979D-2E4DA0E5188A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0932F1F-344B-427D-885A-93991903EDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0932F1F-344B-427D-885A-93991903EDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0932F1F-344B-427D-885A-93991903EDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0932F1F-344B-427D-885A-93991903EDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E84ACEAA-D0E0-48D2-86D0-FD5898EDD5F5} = {E82004A5-0190-4707-B7D6-ACAFC935D5F6}
+		{5457AB74-D132-4145-B378-7C5CF5568058} = {5CA44C0B-23BA-45C0-B881-E93A28E90874}
+		{8112A1CE-559F-4CD0-979D-2E4DA0E5188A} = {5CA44C0B-23BA-45C0-B881-E93A28E90874}
+		{B0932F1F-344B-427D-885A-93991903EDD5} = {5CA44C0B-23BA-45C0-B881-E93A28E90874}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2915C814-722B-4683-A91A-6D1C9CA603A0}
+	EndGlobalSection
+EndGlobal
