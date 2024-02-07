@@ -55,4 +55,4 @@ docker run -it --rm -v "${LOCAL_WORKSPACE_FOLDER//\\/\/}:/workspace" debian bash
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/igecloudsdev/creativehub-containers/blob/main/src/docker-from-docker/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/mysmartspaces/creativeclouds/blob/main/src/docker-from-docker/devcontainer-template.json).  Add additional notes to a `NOTES.md`._

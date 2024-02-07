@@ -46,4 +46,4 @@ network_mode: service:db
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/igecloudsdev/creativehub-containers/blob/main/src/java-postgres/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/mysmartspaces/creativeclouds/blob/main/src/java-postgres/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
